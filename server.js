@@ -19,7 +19,7 @@ function start(route, handle) {
         // var content = route(handle, pathname, res);
     }
 
-    http.createServer(onRequest).listen(3000, '127.0.0.1');
+    http.createServer(onRequest).listen(8888, '127.0.0.1');
     console.log('server has started');
 }
 

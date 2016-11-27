@@ -49,13 +49,14 @@ function upload(res, req) {
     console.log("about to parse");
     form.parse(req, function(error, fields, files){
         console.log('parding done');
+        console.log(fields);
+        console.log(files);
         fs.renameSync(files.upload.path, './tmp/test.png');
         res.writeHead(200, {'Content-Type': 'text/html'});
         res.write('received image:<br />');
         res.write('<img src="/show">');
         res.end();
     })
-    res.end();
 }
 
 function show(res, req) {
