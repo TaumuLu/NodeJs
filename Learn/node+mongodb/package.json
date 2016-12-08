@@ -1,0 +1,21 @@
+{
+  "name": "nm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "moment": "^2.16.0",
+    "serve-static": "^1.11.1"
+  },
+  "devDependencies": {
+    "mongoose": "^4.6.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
