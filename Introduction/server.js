@@ -20,7 +20,7 @@ function start(route, handle) {
     }
 
     http.createServer(onRequest).listen(8888, '127.0.0.1');
-    console.log('server has started');
+    console.log('server has started, listen 127.0.0.1:8888');
 }
 
 exports.start = start;
