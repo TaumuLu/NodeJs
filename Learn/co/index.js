@@ -1,9 +1,10 @@
 var fs = require('fs');
 var co = require('co');
 
-
+Wallpaper Engine
 
 var a = new Promise(function(resolve, reject){
+    debugger;
     // fs.readFile('./text.txt', function(error, data) {
         // if (error) reject(error);
         resolve(1234);
